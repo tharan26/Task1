@@ -1,0 +1,70 @@
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    font-family: "Kanit", sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+  }
+  
+  .name{
+    color: whitesmoke;
+  }
+
+  .navbar {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+  
+  .navbar a:hover {
+    color: yellow;
+  }
+
+
+  .cform{
+    font-size: x-large;
+    padding: 30px;
+    text-align: justify;
+    padding-left: 40%;
+}
+
+.foot{
+    background-color: blue;
+    padding: 50px;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center; /* Center the items vertically */
+    gap: 20px; /* Space between the paragraph and image */
+}
+
+.side-image {
+    width: 500px; /* Adjust the image width as needed */
+    height: auto;
+}
+
+.bt{
+    padding-left: 10px;
+}
